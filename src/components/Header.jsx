@@ -30,7 +30,7 @@ const Header = () => {
             <Link to="/" className="flex items-center">
               <img src={isHomePage ? logoTransparent : logoInvertedTransparent} alt="Forte GB Logo" className="h-18 w-auto mr-2" />
               <div className={`text-3xl font-bold ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
-                <span className={`font-axis-extrabold ${isHomePage ? 'text-[#a6a6a6]' : 'text-[#203045]'}`}>Forte GB</span>
+                <span className="font-axis-extrabold text-[#a6a6a6]">Forte GB</span>
               </div>
             </Link>
           </div>

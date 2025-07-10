@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold mb-4 font-axis-extrabold">
-              <span className={`${isHomePage ? 'text-[#a6a6a6]' : 'text-blue-400'}`}>Forte GB</span>
+              <span className="text-[#a6a6a6]">Forte GB</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Construindo sonhos e realizando vidas através de projetos imobiliários de qualidade. 
