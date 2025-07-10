@@ -28,7 +28,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src={isHomePage ? logoTransparent : logoInvertedTransparent} alt="Forte GB Logo" className="h-10 w-auto mr-3" />
+              <img src={isHomePage ? logoTransparent : logoInvertedTransparent} alt="Forte GB Logo" className="h-12 w-auto mr-3" />
               <div className={`text-xl font-bold ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
                 <span className={`font-axis-extrabold ${isHomePage ? 'text-white' : 'text-[#203045]'}`}>Forte GB</span>
               </div>
