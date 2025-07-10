@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Home as HomeIcon, Users, Award, MapPin } from 'lucide-react'
+import heroImage from '../assets/images/hero-home-new.jpg'
 
 const Home = () => {
   const features = [
@@ -29,14 +30,20 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 pt-16">
-        {/* Background Image Overlay */}
+      <section className="relative min-h-screen flex items-center justify-center pt-16">
+        {/* Background Image */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2075&q=80")'
+            backgroundImage: `url(${heroImage})`
           }}
         />
+        
+        {/* Gradient Overlay - Darker at top for menu visibility, lighter at bottom */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/30" />
+        
+        {/* Additional subtle blue overlay to harmonize colors */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-transparent to-blue-800/10" />
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
