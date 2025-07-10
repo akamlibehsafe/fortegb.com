@@ -42,7 +42,7 @@ const Contato = () => {
               Contato
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Entre em contato conosco e vamos conversar sobre o projeto dos seus sonhos. Nossa equipe da <span className="font-axis-extrabold">Forte GB</span> está pronta para te atender.
+              Entre em contato conosco e vamos conversar sobre o projeto dos seus sonhos. Nossa equipe da Forte GB está pronta para te atender.
             </p>
           </div>
         </div>
@@ -140,7 +140,7 @@ const Contato = () => {
                   <div className="flex items-start">
                     <MapPin className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Endereço da <span className="font-axis-extrabold">Forte GB</span></h3>
+                      <h3 className="font-semibold text-gray-900 mb-1">Endereço da Forte GB</h3>
                       <p className="text-gray-600">
                         Rua Três Pinheiros, 323<br />
                         Cromalta - SP<br />

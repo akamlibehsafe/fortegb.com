@@ -51,7 +51,7 @@ const Home = () => {
             <span className="text-blue-400">REALIZANDO VIDAS</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
-            Descubra o lar dos seus sonhos com a <span className="font-axis-extrabold">Forte GB</span>. Projetos únicos, qualidade excepcional e atendimento personalizado..
+            Descubra o lar dos seus sonhos com a Forte GB. Projetos únicos, qualidade excepcional e atendimento personalizado..
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
@@ -74,7 +74,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Por que escolher a <span className="font-axis-extrabold">Forte GB</span>?
+              Por que escolher a Forte GB?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Somos especialistas em transformar sonhos em realidade através de projetos imobiliários únicos e de alta qualidade.

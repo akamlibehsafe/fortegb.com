@@ -33,7 +33,7 @@ const Sobre = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Sobre a <span className="font-axis-extrabold">Forte GB</span>
+              Sobre a Forte GB
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
               Há mais de 15 anos construindo sonhos e realizando vidas através de projetos imobiliários únicos e de alta qualidade.
@@ -52,7 +52,7 @@ const Sobre = () => {
               </h2>
               <div className="space-y-4 text-gray-600 text-lg">
                 <p>
-                  A <span className="font-axis-extrabold">Forte GB</span> nasceu em 2009 com o sonho de transformar a vida das famílias através de projetos imobiliários únicos e de alta qualidade. Fundada por profissionais experientes do setor da construção civil, nossa empresa sempre teve como foco principal a satisfação total de nossos clientes.
+                  A Forte GB nasceu em 2009 com o sonho de transformar a vida das famílias através de projetos imobiliários únicos e de alta qualidade. Fundada por profissionais experientes do setor da construção civil, nossa empresa sempre teve como foco principal a satisfação total de nossos clientes.
                 </p>
                 <p>
                   Ao longo dos anos, desenvolvemos uma metodologia própria que combina tradição construtiva com inovação tecnológica, sempre respeitando o meio ambiente e as necessidades específicas de cada família.
