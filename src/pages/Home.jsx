@@ -40,10 +40,10 @@ const Home = () => {
         />
         
         {/* Gradient Overlay - Darker at top for menu visibility, lighter at bottom */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/50 to-black/40" />
         
-        {/* Additional subtle blue overlay to harmonize colors */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-transparent to-blue-800/10" />
+        {/* Additional blue overlay to harmonize colors with darker tone */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/30 via-blue-800/15 to-blue-700/20" />
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
