@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Home as HomeIcon, Users, Award, MapPin } from 'lucide-react'
+import heroHomeImage from '../assets/images/hero-home.jpg'
 
 const Home = () => {
   const features = [
@@ -34,7 +35,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')"
+            backgroundImage: "url(" + heroHomeImage + ")"
           }}
         />
         

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import logo from '../assets/images/logo.png'
+import logoInverted from '../assets/images/logo-inverted.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -24,6 +26,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
+              <img src={isHomePage ? logo : logoInverted} alt="Forte GB Logo" className="h-8 w-auto mr-2" />
               <div className={`text-2xl font-bold ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
                 <span className={`font-axis-extrabold ${isHomePage ? 'text-white' : 'text-blue-600'}`}>Forte GB</span>
               </div>
