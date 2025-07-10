@@ -1,7 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 
 const Footer = () => {
+  const location = useLocation()
+  const isHomePage = location.pathname === '/'
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -9,7 +12,7 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold mb-4 font-axis-extrabold">
-              <span className="text-blue-400">Forte GB</span>
+              <span className={`${isHomePage ? 'text-[#a6a6a6]' : 'text-blue-400'}`}>Forte GB</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Construindo sonhos e realizando vidas através de projetos imobiliários de qualidade. 
