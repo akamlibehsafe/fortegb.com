@@ -189,10 +189,12 @@ const Casas = () => {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="text-2xl font-bold text-blue-600">
-                      {propriedade.preco}
-                    </div>
-                    <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+                    {propriedade.status !== 'Vendido' && (
+                      <div className="text-2xl font-bold text-blue-600">
+                        {propriedade.preco}
+                      </div>
+                    )}
+                    <Button size="sm" className={`bg-blue-600 hover:bg-blue-700 ${propriedade.status === 'Vendido' ? 'ml-auto' : ''}`}>
                       <Eye className="h-4 w-4 mr-2" />
                       Ver Detalhes
                     </Button>
