@@ -60,7 +60,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-gray-900">
+            <Button asChild variant="outline" size="lg" className="text-lg px-8 py-3 border-white text-white bg-transparent hover:bg-white hover:text-gray-900 hover:border-white transition-colors duration-200">
               <Link to="/contato">
                 Fale Conosco
               </Link>
