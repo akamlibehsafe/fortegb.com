@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import logo from '../assets/images/logo.png'
 import logoInverted from '../assets/images/logo-inverted.png'
 import logoTransparent from '../assets/images/logo-transparent.png'
+import logoInvertedTransparent from '../assets/images/logo-inverted-transparent.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,9 +28,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src={isHomePage ? logoTransparent : logoInverted} alt="Forte GB Logo" className="h-8 w-auto mr-2" />
+              <img src={isHomePage ? logoTransparent : logoInvertedTransparent} alt="Forte GB Logo" className="h-8 w-auto mr-2" />
               <div className={`text-2xl font-bold ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
-                <span className={`font-axis-extrabold ${isHomePage ? 'text-white' : 'text-blue-600'}`}>Forte GB</span>
+                <span className={`font-axis-extrabold ${isHomePage ? 'text-white' : 'text-[#203045]'}`}>Forte GB</span>
               </div>
             </Link>
           </div>
